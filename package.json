@@ -1,0 +1,32 @@
+{
+  "name": "peerdep-checker",
+  "version": "1.0.0",
+  "description": "CLI tool to check if your dependencies support a given peer dependency version (e.g. React)",
+  "main": "dist/index.js",
+  "bin": {
+    "peerdep-checker": "dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "peerdependency",
+    "checker",
+    "peer-dependency",
+    "npm"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "cond",
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^7.7.2",
+    "table": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@types/semver": "^7.7.0",
+    "typescript": "^5.4.5"
+  },
+  "type": "module"
+}
