@@ -1,6 +1,6 @@
 {
   "name": "peerdep-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to check if your dependencies support a given peer dependency version (e.g. React)",
   "main": "dist/index.js",
   "bin": {
@@ -13,6 +13,10 @@
     "peer-dependency",
     "npm"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litepacks/peerdep-checker.git"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js"
